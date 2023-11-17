@@ -148,7 +148,22 @@
   &:hover {
     background: $main-color;
     color: rgba(98, 99, 55, 1);
+    text-decoration: none;
+    transform: translateY(-3px);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
   }
+
+  &:link,
+  &:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px 40px;
+    display: inline-block;
+    border-radius: 100px;
+    transition: all 0.2s;
+    position: absolute;
+  }
+  
 }
 
 //--------------------------------about--------------------------
