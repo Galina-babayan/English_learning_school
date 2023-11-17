@@ -1,11 +1,11 @@
 # Lingua Forward English School
 
 <p>A responsive website for the owner of English school</p>
-<img width="700" alt="Screenshot" src="assets/images/screenshots/main.png"/>
-<img width="700" alt="Screenshot" src="assets/images/screenshots/second.png"/>
-<img width="700" alt="Screenshot" src="assets/images/screenshots/pansion.png"/>
-<img width="700" alt="Screenshot" src="assets/images/screenshots/programs.png"/>
-<img width="700" alt="Screenshot" src="assets/images/screenshots/sign up.png"/>
+<img width="700" alt="Screenshot" src="./assets/images/screenshots/main.png"/>
+<img width="700" alt="Screenshot" src="./assets/images/screenshots/second.png"/>
+<img width="700" alt="Screenshot" src="./assets/images/screenshots/pansion.png"/>
+<img width="700" alt="Screenshot" src="./assets/images/screenshots/programs.png"/>
+<img width="700" alt="Screenshot" src="./assets/images/screenshots/sign up.png"/>
 
 ## Getting started
 
@@ -24,5 +24,5 @@ Host the parent directory on the webserver
 
 ## Result:
 
-https://Galina-babayan.github.io/English_learning_school/  
+<!-- https://Galina-babayan.github.io/English_learning_school/   -->
 <!-- https://github.com/Galina-babayan/English_learning_school -->
