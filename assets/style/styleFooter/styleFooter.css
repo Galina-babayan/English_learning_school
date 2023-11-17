@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ol,
+ul,
+li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+body {
+  font-family: "Roboto Slab", serif;
+}
+
+footer {
+  font-family: "Roboto Slab", serif;
+  background-color: rgba(237, 139, 18, 0.7803921569);
+}
+footer .footer__wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 64px 0 60px 0;
+}
+footer .footer__wrapper .logo {
+  max-width: 100px;
+  border-radius: 50px;
+}
+footer .footer__wrapper .footer__nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 15px;
+}
+footer .footer__wrapper .footer__nav .footer__nav-right {
+  display: flex;
+  justify-content: space-between;
+}
+footer .footer__wrapper .footer__nav .footer__nav-right .hover a:hover {
+  color: #fbfbfb;
+  transition: 0.5s;
+}
+footer .footer__wrapper .footer__nav .footer__nav-right .footer__nav-contacts {
+  display: flex;
+  flex-direction: column;
+  padding-right: 65px;
+}
+footer .footer__wrapper .footer__nav .footer__nav-right .footer__nav-contacts a {
+  font-weight: 400;
+  font-size: 17px;
+  text-decoration: none;
+  color: #000000;
+  padding-bottom: 5px;
+}
+footer .footer__wrapper .footer__nav .footer__nav-right .footer__nav-contacts .nav-2 {
+  padding-right: 50px;
+}
+footer .footer__wrapper .footer__nav .footer__nav-right .footer__nav-adress {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+footer .footer__wrapper .footer__nav .footer__nav-right .footer__nav-adress a {
+  font-weight: 400;
+  font-size: 17px;
+  text-decoration: none;
+  line-height: 20px;
+  color: #000000;
+}
+footer .footer__wrapper .footer__nav .footer__nav-social .footer-social img {
+  padding-right: 10px;
+  max-width: 35px;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 715px) {
+  footer {
+    display: none;
+  }
+}/*# sourceMappingURL=styleFooter.css.map */

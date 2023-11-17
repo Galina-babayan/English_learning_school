@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap");
+$main-font: "Roboto Slab", serif;
+$main-color: white;
+$main-orange-color: #f08700;
+$paragraph-color: #454545;
+$color-hover: #2dfc4931;
+$box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ol,
+ul,
+li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+body {
+  font-family: $main-font;
+}
+
+@mixin main-button {
+  color: #030303;
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: uppercase;
+  background: none;
+  border: 1px solid;
+  border-radius: 67px;
+
+  &:hover {
+    background: $main-orange-color;
+    border: none;
+    box-shadow: 0px 5px 5px rgba(255, 0, 0, 0.212);
+  }
+}
+
+@mixin h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 57px;
+  text-transform: uppercase;
+  color: $main-orange-color;
+  text-align: center;
+}
+
+@mixin regular-paragraphs {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 24px;
+  color: #454545;
+}
+
+@mixin f-column {
+  display: flex;
+  flex-direction: column;
+}
+
+@mixin f-center {
+  display: flex;
+  justify-content: center;
+}
+
+@mixin f-space-around {
+  display: flex;
+  justify-content: space-around;
+}
+
+@mixin f-space-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+@mixin font-header {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 137%;
+  color: rgba(243, 243, 243, 1);
+}
+
+@mixin title-before {
+  content: "";
+  left: 32%;
+  position: absolute;
+  height: 3px;
+  right: 32%;
+  background-color: #42c809;
+  bottom: -5px;
+}
