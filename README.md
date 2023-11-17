@@ -20,9 +20,9 @@ Host the parent directory on the webserver
 
 ## Thanks to all Contributors
 
-<!-- [![Contributors](https://contrib.rocks/image?repo=jellyjul/ENGLISH_SCHOOL)](https://github.com/jellyjul/ENGLISH_SCHOOL/graphs/contributors) -->
+[![Contributors](https://contrib.rocks/image?repo=jellyjul/ENGLISH_SCHOOL)](https://github.com/jellyjul/ENGLISH_SCHOOL/graphs/contributors)
 
 ## Result:
 
-<!-- https://Galina-babayan.github.io/ENGLISH_SCHOOL/   -->
-https://github.com/Galina-babayan/English_learning_school
+https://Galina-babayan.github.io/English_learning_school/  
+<!-- https://github.com/Galina-babayan/English_learning_school -->
