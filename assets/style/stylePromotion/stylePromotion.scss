@@ -1,0 +1,78 @@
+@import "../vars/vars.scss";
+
+//--------------------------------------------------promotion------------------------------------------------
+
+.promotion {
+    @include font-header;
+    color: #454545;  
+    padding: 70px 0 240px 0;
+    position: relative;
+  
+    &__bgc {
+      position: absolute;
+      width: 50%;
+      height: 499px;
+      background: rgba(170, 216, 170, 0.386);
+      top: -50px;
+      left: 0;
+      z-index: 5;
+    }
+  
+    &__container {
+      display: flex;
+    }
+  
+    &__text {
+      width: 50%;
+    }
+  
+    &__title {
+      font-size: 36px;
+      font-weight: 400;
+    }
+  
+    &__descr {
+      margin-top: 40px;
+      font-size: 20px;
+      line-height: 24px;
+      font-weight: 300;
+      padding-right: 10px;
+      span{
+        font-weight: bold;
+        font-size: 26px;
+      }
+    }
+  
+    &__timer {
+      width: 50%;
+    }
+  
+    &__timer-title {
+      text-align: right;
+    }
+  
+    &__timer-timer {
+      margin-top: 60px;
+      padding-left: 95px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  
+    &__timer-block {
+      width: 102px;
+      height: 120px;
+      background: #FFFFFF;
+      box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+      font-size: 16px;
+      font-weight: 300;
+      text-align: center;
+      span{
+        display: block;
+        margin-top: 20px;
+        margin-bottom: 5px;
+        font-size: 56px;
+        font-weight: bold;
+      }
+    }
+  }

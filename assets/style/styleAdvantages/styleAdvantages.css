@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ol,
+ul,
+li {
+  list-style: none;
+  margin-bottom: 0px;
+}
+
+img {
+  vertical-align: top;
+}
+
+body {
+  font-family: "Roboto Slab", serif;
+}
+
+.advantages {
+  background-color: rgba(254, 247, 245, 0.5411764706);
+  padding-top: 30px;
+}
+.advantages h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 57px;
+  text-transform: uppercase;
+  color: #f08700;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+.advantages__subtitle {
+  color: #454545;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 4%;
+}
+.advantages__block {
+  display: grid;
+  grid-template-columns: repeat(3, 3fr);
+  grid-template-rows: repeat(2, 3fr);
+  grid-gap: 3%;
+}
+.advantages__card {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  transition: all 0.25s ease-in-out;
+}
+.advantages__card:hover {
+  background: rgba(170, 216, 182, 0.29);
+  color: rgb(0, 0, 0);
+  border-radius: 20px;
+  box-shadow: -1px 20px 10px 0px rgba(0, 0, 0, 0.212);
+}
+.advantages__card img {
+  width: 30%;
+}
+.advantages__card h4 {
+  margin-top: 5%;
+  color: #425b69;
+  font-family: sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+}
+.advantages__card h5 {
+  padding: 0 10px;
+  color: gray;
+  font-family: sans-serif;
+  text-align: justify;
+  font-size: 16px;
+}/*# sourceMappingURL=styleAdvantages.css.map */

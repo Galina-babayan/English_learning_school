@@ -1,0 +1,96 @@
+@import "../vars/vars.scss";
+
+//-----------------------------------------price---------------------------------------------//
+.price {
+    background-color: rgba(251, 251, 251, 1);
+    background-color: #fef7f58a;
+    @include f-column;
+    h2 {
+      @include h2;
+      padding-top: 5%;
+      color: #425b69;
+    }
+    &__button {
+      @include f-center;
+      flex-wrap: wrap;
+      margin: 0px;
+      background-color: $main-orange-color;
+    }
+    &__info {
+      @include regular-paragraphs;
+      @include f-space-between;
+      flex-direction: row;
+      padding: 2% 5% 10% 5%;
+      ol {
+        list-style: none;
+        padding-left: 0rem;
+      }
+      ol > li {
+        padding-left: 20px;
+        position: relative;
+        margin: 5px 5px 5px 8px;
+        color: $paragraph-color;
+      }
+      ol > li:before {
+        content: "✔";
+        position: absolute;
+        left: -10px;
+        color: rgb(5, 116, 2);
+        font-weight: bold;
+        font-size: 20px;
+      }
+      .no:before {
+        content: "\274c";
+        position: absolute;
+        font-size: 14px;
+      }
+      &-bag {
+        text-align: center;
+        width: 100%;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+        border-radius: 20px;
+        &-description {
+          background-color:rgba(219, 205, 177, 0.5411764706);
+          border-radius: 20px;
+          &-details {
+            text-align: start;
+            padding-left: 10px;
+            color: $paragraph-color;
+          }
+          &-title {
+            @include h2;
+            font-size: 20px;
+            font-weight: bold;
+            color: $paragraph-color;
+          }
+          &-rate {
+            @include regular-paragraphs;
+            font-size: 25px;
+            font-weight: bold;
+            color: $main-orange-color;
+            padding-bottom: 5px;
+          }
+        }
+        &-description:hover {
+          background:  rgba(185, 216, 170, 0.29);
+          color: rgb(0, 0, 0);
+          border-radius: 20px;
+          box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+        }
+      }
+      .bag-light,
+      .bag-standard {
+        margin-right: 5%;
+      }
+      .btn {
+        margin-bottom: 20px;
+        cursor: pointer;
+        border: none;
+        color: white;
+        @include main-button;
+        width: 10vw;
+        font-size: 12px;
+        letter-spacing: 0.1em;
+      }
+    }
+  }

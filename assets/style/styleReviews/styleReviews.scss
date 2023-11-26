@@ -1,0 +1,88 @@
+@import "../vars/vars.scss";
+
+//-------------------------------Reviews-slider-------------------------------------------------------------
+
+
+.reviews {
+    background-color: #fef7f58a;
+    &__title {
+      @include h2;
+      padding: 5% 1% 1% 0;
+      text-align: center;
+    }
+  
+    &__text {
+      color: $paragraph-color;
+      font-size: 20px;
+      @include f-center;
+      margin-bottom: 2%;
+      padding-left: 11%;
+      padding-right: 3%;
+      text-align: left;
+    }
+ }
+  .reviews-show {
+    @include font-header;
+    background-color: #fef7f58a;
+    display: flex;
+    justify-content: center;
+  
+    &__slider {    
+      // width: 650px;
+      margin-top: 50px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items:center;
+    
+    }
+  
+    &__slider #current {
+      font-size: 48px;
+      font-weight: bold;
+      color: $main-orange-color;
+    }
+  
+    &__slider-counter {
+      display: flex;
+      width: 180px;
+      align-items: center;
+      font-size: 24px;
+      color: rgba(0, 0, 0, 0.5);
+    }
+  
+    &__slider-prev {
+      margin-right: 10px;
+      cursor: pointer;
+    }
+  
+    &__slider-next {
+      margin-left: 10px;
+      cursor: pointer;
+    }
+  
+    &__slider-wrapper {
+      width: 100%;
+      width: 80%;
+      margin-top: 15px;
+      box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.25);
+    }
+  
+    &__slider-inner {
+     
+    }
+  
+    &__slide {
+      width: 100%;
+      height: 390px;
+    }
+  
+    &__slide img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+}  
+
+
+

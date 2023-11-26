@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ol,
+ul,
+li {
+  list-style: none;
+  margin-bottom: 0px;
+}
+
+img {
+  vertical-align: top;
+}
+
+body {
+  font-family: "Roboto Slab", serif;
+}
+
+.courses {
+  background-color: rgba(254, 247, 245, 0.5411764706);
+}
+.courses__title h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 57px;
+  text-transform: uppercase;
+  color: #f08700;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  flex-wrap: wrap;
+  color: #f08700;
+}
+.courses__column {
+  display: flex;
+  box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+  height: 360px;
+  padding: 30px;
+  margin-bottom: 2%;
+  background-color: rgba(219, 205, 177, 0.5411764706);
+  border-radius: 10px;
+}
+.courses__column:hover {
+  box-shadow: 5px 5px 5px #425b69;
+  transition: all 0.3s ease 0s;
+  border: solid 4px #f08700;
+}
+.courses__img {
+  max-width: 100%;
+}
+.courses__image {
+  width: 100%;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.25);
+}
+.courses__description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: 40px;
+}
+.courses__title h4 {
+  color: gray;
+}
+.courses__time p {
+  color: gray;
+  margin-bottom: 0;
+}
+.courses__time-image {
+  max-width: 10px;
+}
+.courses__time-flex {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+}
+.courses__place {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+}
+.courses__button {
+  border-radius: 25px;
+  background-color: #f08700;
+  color: #000;
+}/*# sourceMappingURL=styleCourses.css.map */

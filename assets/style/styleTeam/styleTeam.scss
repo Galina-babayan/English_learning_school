@@ -1,0 +1,105 @@
+@import "../vars/vars.scss";
+
+//---------------------------team------------------------
+.team {
+    background-color: rgba(251, 251, 251, 1);
+    background-color: #fef7f58a;
+    &__container {
+      width: 100%;
+      margin: auto;
+      padding: 0 15px;
+    }
+    &__title {
+      flex: 0 0 100%;
+      max-width: 100%;
+      margin-bottom: 40px 0 80px 0;
+      text-align: center;
+      h2 {
+        @include h2;
+        display: inline-block;
+        margin: 0 0 20px;
+        position: relative;
+        &::before {
+          @include title-before;
+          background-color: #425b69;
+        }
+      }
+    }
+    p {
+      padding: 0;
+      margin: 0 0 15px 0;
+      color: $paragraph-color;
+      font-weight: 300;
+    }
+    img {
+      width: 100%;
+      height: auto;
+    }
+    &__row {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      margin-right: -15px;
+      margin-left: -15px;
+    }
+    &__column {
+      position: relative;
+      width: 100%;
+      padding: 0 15px;
+      flex: 0 0 100%;
+      max-width: 100%;     
+ 
+      &:hover {
+        background:  rgba(185, 216, 170, 0.29);
+        color: rgb(0, 0, 0);
+        border-radius: 20px;
+        box-shadow: -1px 20px 10px 0px rgba(0, 0, 0, 0.212);
+        box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.25);
+      }
+      .team__card {  
+        background-color:rgba(222, 216, 203, 0.541);
+        border-radius: 20px;
+        .team__img {
+          position: relative;
+          font-size: 0;
+          text-align: center;
+          img {
+            width: 100%;
+            height: auto;
+            border-radius: 100%;
+            border: 20px solid rgba(184, 182, 177, 0.541);
+            box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.25);
+          }
+        }
+        .team__content {
+          padding: 80px 20px 20px 20px;
+          margin-top: -80px;
+          text-align: center;
+          background: rgba(241, 241, 240, 0.541);
+          border-radius: 10px;
+          h3 {
+            font-size: 25px;
+            font-weight: 400;
+            letter-spacing: 2px;
+            color: $paragraph-color;
+          }
+          h4 {
+            font-size: 16px;
+            font-weight: 300;
+          }
+          h5 {
+            font-size: 14px;
+            font-weight: 300;
+            letter-spacing: 1px;
+            font-style: italic;
+            margin-bottom: 0;
+          }
+          p {
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 22px;
+            font-style: italic;
+          }
+        }
+      }
+    }
+  }

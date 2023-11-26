@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ol,
+ul,
+li {
+  list-style: none;
+  margin-bottom: 0px;
+}
+
+img {
+  vertical-align: top;
+}
+
+body {
+  font-family: "Roboto Slab", serif;
+}
+
+.pansion {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 137%;
+  color: rgb(243, 243, 243);
+  padding-top: 10%;
+  color: #f08700;
+  background-color: rgba(254, 247, 245, 0.5411764706);
+  margin-bottom: 30px;
+}
+.pansion h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 57px;
+  text-transform: uppercase;
+  color: #f08700;
+  text-align: center;
+  text-align: start;
+}
+.pansion__container {
+  display: flex;
+  flex-direction: column;
+  margin: 30px 0px;
+}
+.pansion__gallery .carousel-inner {
+  height: 400px;
+}
+.pansion__gallery .pansion-text {
+  color: #454545;
+  font-family: "Roboto Slab", serif;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  color: #454545;
+  font-size: 20px;
+  min-height: 114px;
+  justify-content: center;
+  background-color: rgba(219, 205, 177, 0.5411764706);
+}
+
+.pansion-show {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 137%;
+  color: rgb(243, 243, 243);
+  background-color: rgba(254, 247, 245, 0.5411764706);
+  display: flex;
+  justify-content: center;
+}
+.pansion-show__slider {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.pansion-show__slider #pansion-current {
+  font-size: 48px;
+  font-weight: bold;
+  color: #f08700;
+}
+.pansion-show__slider-counter {
+  display: flex;
+  width: 180px;
+  align-items: center;
+  font-size: 24px;
+  color: rgba(0, 0, 0, 0.5);
+  margin: 20px 0px 20px 0px;
+}
+.pansion-show__slider-prev {
+  margin-right: 10px;
+  cursor: pointer;
+}
+.pansion-show__slider-next {
+  margin-left: 10px;
+  cursor: pointer;
+}
+.pansion-show__slider-wrapper {
+  width: 100%;
+  margin-top: 15px;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.25);
+}
+.pansion-show__slide {
+  width: 100%;
+  border-radius: 20px;
+}
+.pansion-show__slide img {
+  display: block;
+  width: 100%;
+  border-radius: 0px 0px 10px 10px;
+}
+.pansion-show__slide img {
+  width: 100%;
+  height: 100%;
+}/*# sourceMappingURL=stylePansion.css.map */

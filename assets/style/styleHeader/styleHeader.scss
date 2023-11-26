@@ -24,13 +24,12 @@
 
 .header {
   @include font-header;
-  // background-color: $main-orange-color;
-  // position: fixed;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 50;
-
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.25);
   &__body {
     @include f-center;
     position: relative;
@@ -44,9 +43,6 @@
   &__logo-b {
     display: none;
   }
-  &__logo-image-b {
-  }
-
   &__logo-image {
     img {
       max-width: 100%;
@@ -58,7 +54,6 @@
     transform: translateX(-50%);
     display: flex;
     max-width: 110px;
-
     z-index: 5;
   }
 
@@ -77,21 +72,21 @@
   &__item {
     align-self: center;
   }
-  &__item_l {
+  &__item-l {
     padding: 0px 110px 0px 35px;
   }
-  &__item_r {
+  &__item-r {
     padding: 0px 35px 0px 25px;
   }
   &__link {
     font-weight: 400;
     font-size: 16px;
     line-height: 105%;
-
     text-transform: uppercase;
     color: rgba(243, 243, 243, 1);
     &:hover {
       color: rgba(87, 162, 83, 0.979);
+      text-decoration: none;
     }
   }
 }
@@ -99,6 +94,9 @@
 li {
   padding: 0px 35px;
 }
+
+//----------------------------------------------
+
 
 @media (max-width: 810px) {
   li {

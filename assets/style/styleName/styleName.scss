@@ -1,0 +1,117 @@
+@import "../vars/vars.scss";
+
+//-------------------------name-------------------------
+.name {
+    display: flex;
+    flex-direction: row-reverse;
+    @include font-header;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    background-color: rgba(251, 251, 251, 1);
+    background-color: #fef7f58a;
+    &__body {
+      margin-top: -500px;
+      @include f-column;
+      flex: 0 1 50%;
+      min-height: 1200px;
+      background-color: $main-orange-color;
+    }
+    &__top {
+      flex: 1 1 auto; 
+    }
+    &__top-title {
+      font-weight: 800;
+      font-size: 50px;
+      text-transform: uppercase;
+      padding: 30px 0px;
+    }
+    &__top-text {
+      padding: 10px 20px;
+      color: #425b69;
+      h5 {
+        text-transform: uppercase;
+        font-size: 20px;
+        color: #425b69;
+        color: white;
+      }
+      .name__adv {
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 10px;   
+        padding: 20px 20px 20px 20px;
+        color: #425b69;
+        text-transform: uppercase;
+        font-size: 15px;
+        h6 {   
+          color: #f3f4fa;
+        }
+        img {
+          width: 15%;
+        }
+      }
+      .name__adv-block {
+        flex: 0 1 50%;
+      }
+    }
+    &__top-button {
+      @include f-center;
+      flex-wrap: wrap;
+      margin: 0px;
+      background-color: $main-orange-color;
+    }
+    &__image {
+      display: flex;
+      margin: 0 auto;
+      max-width: 462px;
+      margin-bottom: 40px;
+      box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.25);
+      img {
+        width: 100%;
+      }
+    }
+  }
+  .button-modal{
+    background-color: $main-orange-color;
+  }
+  .button{
+    background-color: rgba(87, 162, 83, 0.979);
+    background-color: rgba(119, 184, 116, 0.979);
+  }
+  .button, .button-modal {
+    border-radius: 37px;
+    margin: 10px 0px;
+    @include f-center;
+    align-items: center;
+    padding: 5px 20px;
+    min-height: 48px;
+    letter-spacing: 0.2px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 105%;
+    text-transform: uppercase;
+    text-align: center;
+    color: $main-color;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.25);
+  
+    &:hover {
+      background: $main-color;
+      color: rgba(98, 99, 55, 1);
+      text-decoration: none;
+      transform: translateY(-3px);
+      box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+    }
+  
+    &:link,
+    &:visited {
+      text-transform: uppercase;
+      text-decoration: none;
+      padding: 15px 40px;
+      display: inline-block;
+      border-radius: 100px;
+      transition: all 0.2s;
+      position: absolute;
+      border: none;
+    }
+    
+  }

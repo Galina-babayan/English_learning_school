@@ -1,10 +1,9 @@
 @import "../vars/vars.scss";
 footer {
-    font-family: $main-font;
-    background-color: #ed8b12c7;
-    // background: url("../../images/imagesFooter/bg_4.jpeg");
-    // background-repeat: no-repeat;
-    // background-size: cover;
+    font-family: $main-font;  
+    background: url("../../images/imagesFooter/bg_5.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
     .footer__wrapper {
         max-width: 1200px;
         margin: 0 auto;
@@ -17,9 +16,7 @@ footer {
             @include f-space-between;
             padding: 0 15px;
             .footer__nav-right {
-                @include f-space-between;
-                // flex-basis: 55%;
-                // gap: 30px;
+                @include f-space-between;           
                 .hover {
                     a:hover {
                         color: #fbfbfb;
@@ -32,8 +29,7 @@ footer {
                     a {
                         font-weight: 400;
                         font-size: 17px;
-                        text-decoration: none;
-                        // color: #ffff;
+                        text-decoration: none;                
                         color: #000000;
                         padding-bottom: 5px;
                     }
@@ -48,8 +44,7 @@ footer {
                         font-weight: 400;
                         font-size: 17px;
                         text-decoration: none;
-                        line-height: 20px;
-                        // color: #ffff;
+                        line-height: 20px;                    
                         color: #000000;
                     }
                 }

@@ -1,0 +1,74 @@
+@import "../vars/vars.scss";
+
+//--------------------------------about--------------------------
+.about {
+    @include font-header;    
+    background-color: #fef7f58a;    
+    margin-top: -700px;
+    &__container {
+      margin-bottom: 30px;
+    }
+    &__body {
+      display: flex;
+      min-height: 900px;
+    }
+    &__name {
+      p {
+        margin-right: 15px;
+      }
+      display: flex;
+      flex-wrap: nowrap;
+      font-weight: 800;
+      font-size: 130px;
+      line-height: 105%;
+      letter-spacing: -0.04em;
+      text-transform: uppercase;
+      color: #425b69;
+      padding: 30px 20px;
+      text-align: center;
+      position: relative;
+      z-index: 3;
+    }
+    &__left {
+      @include f-column;
+      flex: 0 1 50%;
+    }
+    &__left-content {
+      flex: 1 1 auto;
+      z-index: 10;
+    }
+    &__title {
+      text-align: center;
+      font-weight: 500;
+      font-size: 30px;
+      line-height: 105%;
+      text-transform: uppercase;
+      padding: 10px 0px;
+      color: #f08700;
+    }
+    &__text {
+      padding: 20px;
+      color: $paragraph-color;
+      text-align: justify;
+    }
+    &__image {
+      display: flex;
+      margin: 0 auto;
+      max-width: 462px;
+      padding: 0px;
+      z-index: 10;
+      box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.25);
+      img {
+        width: 100%;
+      }
+    }
+    &__right {
+      @include f-column;
+      flex: 0 1 50%;
+    }
+    &__right-content {
+      transform: translateY(500px);
+      margin-bottom: 20px;
+      padding-bottom: 20px;
+    }
+  }

@@ -1,0 +1,74 @@
+@import "../vars/vars.scss";
+
+//---------------------------------------------courses------------------------------------
+.courses {
+    background-color: #fef7f58a;
+ 
+    &__title {
+      h2 {
+        @include h2;
+        display: flex;
+        justify-content: center;
+        padding: 15px;
+        flex-wrap: wrap;
+        color: #f08700;
+      }
+    }
+    &__column {
+      display: flex;
+      box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+      height: 360px;
+      padding: 30px;
+      margin-bottom: 2%;
+      background-color: #dbcdb18a;
+      border-radius: 10px;
+      &:hover {
+        box-shadow: 5px 5px 5px #425b69;
+        transition: all 0.3s ease 0s;
+        border: solid 4px $main-orange-color;
+      }
+    }
+    &__img {
+      max-width: 100%;
+    }
+    &__image {
+      width: 100%;
+      box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.25);
+    }
+    &__description {
+      display: flex;
+      flex-direction: column;
+      justify-content:space-around;
+      padding-left: 40px;
+    }
+    &__title {
+      h4 {
+        color: gray;
+      }
+    }
+  
+    &__time {
+      p {
+        color: gray;
+        margin-bottom: 0;
+      }
+    }
+    &__time-image{
+      max-width: 10px;
+    }
+    &__time-flex {
+      display: flex;
+      align-items: baseline;
+      gap: 10px; 
+    }
+    &__place {
+      display: flex;
+      align-items: baseline;
+      gap: 10px;
+    }
+    &__button {
+      border-radius: 25px;
+      background-color: $main-orange-color;
+      color: #000;
+    }
+  }

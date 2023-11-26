@@ -4,6 +4,7 @@ $main-color: white;
 $main-orange-color: #f08700;
 $paragraph-color: #454545;
 $color-hover: #2dfc4931;
+$color-hover: rgba(170, 216, 182, 0.29);
 $box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
 
 * {
@@ -29,6 +30,7 @@ ol,
 ul,
 li {
   list-style: none;
+  margin-bottom: 0px;
 }
 
 img {
@@ -37,15 +39,14 @@ img {
 
 body {
   font-family: $main-font;
+
 }
 
 @mixin main-button {
-  color: #030303;
   font-weight: 400;
   font-size: 14px;
   text-transform: uppercase;
-  background: none;
-  border: 1px solid;
+  background:rgba(119, 184, 116, 0.979);  
   border-radius: 67px;
 
   &:hover {

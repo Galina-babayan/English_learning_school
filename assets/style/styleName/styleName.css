@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ol,
+ul,
+li {
+  list-style: none;
+  margin-bottom: 0px;
+}
+
+img {
+  vertical-align: top;
+}
+
+body {
+  font-family: "Roboto Slab", serif;
+}
+
+.name {
+  display: flex;
+  flex-direction: row-reverse;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 137%;
+  color: rgb(243, 243, 243);
+  text-align: center;
+  position: relative;
+  z-index: 2;
+  background-color: rgb(251, 251, 251);
+  background-color: rgba(254, 247, 245, 0.5411764706);
+}
+.name__body {
+  margin-top: -500px;
+  display: flex;
+  flex-direction: column;
+  flex: 0 1 50%;
+  min-height: 1200px;
+  background-color: #f08700;
+}
+.name__top {
+  flex: 1 1 auto;
+}
+.name__top-title {
+  font-weight: 800;
+  font-size: 50px;
+  text-transform: uppercase;
+  padding: 30px 0px;
+}
+.name__top-text {
+  padding: 10px 20px;
+  color: #425b69;
+}
+.name__top-text h5 {
+  text-transform: uppercase;
+  font-size: 20px;
+  color: #425b69;
+  color: white;
+}
+.name__top-text .name__adv {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 10px;
+  padding: 20px 20px 20px 20px;
+  color: #425b69;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+.name__top-text .name__adv h6 {
+  color: #f3f4fa;
+}
+.name__top-text .name__adv img {
+  width: 15%;
+}
+.name__top-text .name__adv-block {
+  flex: 0 1 50%;
+}
+.name__top-button {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0px;
+  background-color: #f08700;
+}
+.name__image {
+  display: flex;
+  margin: 0 auto;
+  max-width: 462px;
+  margin-bottom: 40px;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.25);
+}
+.name__image img {
+  width: 100%;
+}
+
+.button-modal {
+  background-color: #f08700;
+}
+
+.button {
+  background-color: rgba(87, 162, 83, 0.979);
+  background-color: rgba(119, 184, 116, 0.979);
+}
+
+.button, .button-modal {
+  border-radius: 37px;
+  margin: 10px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 20px;
+  min-height: 48px;
+  letter-spacing: 0.2px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 105%;
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.25);
+}
+.button:hover, .button-modal:hover {
+  background: white;
+  color: rgb(98, 99, 55);
+  text-decoration: none;
+  transform: translateY(-3px);
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+}
+.button:link, .button:visited, .button-modal:link, .button-modal:visited {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 15px 40px;
+  display: inline-block;
+  border-radius: 100px;
+  transition: all 0.2s;
+  position: absolute;
+  border: none;
+}/*# sourceMappingURL=styleName.css.map */

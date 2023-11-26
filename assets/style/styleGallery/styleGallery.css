@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ol,
+ul,
+li {
+  list-style: none;
+  margin-bottom: 0px;
+}
+
+img {
+  vertical-align: top;
+}
+
+body {
+  font-family: "Roboto Slab", serif;
+}
+
+.gallery {
+  background-color: rgb(251, 251, 251);
+  background-color: rgba(254, 247, 245, 0.5411764706);
+  display: flex;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.gallery h2 {
+  margin-top: 5%;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 57px;
+  text-transform: uppercase;
+  color: #f08700;
+  text-align: center;
+}
+.gallery__flags {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.gallery__flags img {
+  max-width: 5%;
+}
+.gallery__text {
+  color: #454545;
+}
+.gallery__text .bold {
+  font-weight: bold;
+}
+.gallery__container {
+  -moz-columns: 5 200px;
+       columns: 5 200px;
+  -moz-column-gap: 1.5rem;
+       column-gap: 1.5rem;
+  width: 90%;
+  margin: 0 auto;
+}
+.gallery__container div {
+  width: 150px;
+  margin: 0 1.5rem 1.5rem 0;
+  display: inline-block;
+  width: 100%;
+  margin-top: 10%;
+  padding: 5px;
+  border: solid 2px white;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  transition: all 0.25s ease-in-out;
+}
+.gallery__container div:hover img {
+  filter: grayscale(0);
+}
+.gallery__container div:hover {
+  border: solid 4px #f08700;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+.gallery__container div img {
+  width: 100%;
+  filter: grayscale(100%);
+  border-radius: 5px;
+  transition: all 0.25s ease-in-out;
+}
+.gallery__container div p {
+  margin: 5px 0;
+  padding: 0;
+  text-align: center;
+  font-style: italic;
+  color: #454545;
+}
+.gallery__container div p:last-child {
+  color: #f08700;
+}/*# sourceMappingURL=styleGallery.css.map */

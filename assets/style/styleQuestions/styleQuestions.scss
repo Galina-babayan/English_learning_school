@@ -1,0 +1,82 @@
+@import "../vars/vars.scss";
+
+//--------------------------------------------questions----------------------------------
+.questions {
+    background-color: rgba(251, 251, 251, 1);
+    background-color: #fef7f58a;
+    &__wrapper {
+      font-family: $main-font;
+      max-width: 1200px;
+      margin: 0 auto;
+      h2 {
+        @include h2;
+        color: #425b69;
+        letter-spacing: 3px;
+        padding-top: 20px;
+      }
+      .questions__block {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding-top: 30px;
+        padding-bottom: 156px;
+        .questions__item {
+          display: block;
+          background: rgb(231 133 22 / 53%); 
+          width: 700px;
+          box-shadow: 0 10px 15px -5px rgba(0, 0, 0, 0.1),
+            0 10px 10px -5px rgba(0, 0, 0, 0.04);
+          border-radius: 8px;
+          overflow: hidden;
+        }
+        summary::-webkit-details-marker {
+          display: none;
+        }
+        summary::-moz-list-bullet {
+          list-style-type: none;
+        }
+        summary::marker {
+          display: none;
+        }
+        summary {
+          display: block;
+          padding: 20px;
+          line-height: 25px;
+          border-bottom: 1px solid #e2e8f0;
+          font-size: 20px;
+          cursor: pointer;
+          position: relative;       
+          color: #425b69;
+        }
+        summary:before {
+          top: 26px;
+          right: 12px;
+          color: transparent;
+          background: url("../../images/imagesHeader/icons/free-icon-font-angle-down-3916886.svg")
+            no-repeat 50% 50% / 1em 1em;
+          width: 1em;
+          height: 1em;
+          content: "";
+          position: absolute;
+          transition: transform 0.5s;
+        }
+        details[open] > summary:before {
+          transform: scale(1, -1);
+        }
+        summary ~ * {
+          padding: 20px;
+        }
+        details[open] summary ~ * {
+          animation: sweep 0.5s ease-in-out;
+          // color: white;
+          color: #425b69;
+        }
+        summary:hover {
+          transform: translateY(-7px);
+          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+          transition: 0.5s;
+        }
+      }
+    }
+  }

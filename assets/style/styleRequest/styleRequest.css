@@ -1,0 +1,321 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ol,
+ul,
+li {
+  list-style: none;
+  margin-bottom: 0px;
+}
+
+img {
+  vertical-align: top;
+}
+
+body {
+  font-family: "Roboto Slab", serif;
+}
+
+.request {
+  background-color: rgb(251, 251, 251);
+  background-color: rgba(254, 247, 245, 0.5411764706);
+  background-image: url("../../images/imagesMain/imgRequest/bg.png");
+  display: flex;
+  min-height: 430px;
+}
+.request__button {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0px;
+}
+.request__text {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  margin: auto auto 8% 60%;
+}
+.request__text h2 {
+  color: white;
+  text-align: center;
+}
+.request__text h2:after {
+  content: "";
+  margin: 20px 0;
+  display: block;
+  height: 2px;
+  background: white;
+  width: 100%;
+}
+.request__text p {
+  margin-bottom: 20px;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 24px;
+  color: #454545;
+  color: white;
+  text-align: center;
+}
+.request__text .btn {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.request__text .btn .btn:link,
+.request__text .btn .btn:visited {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 15px 40px;
+  display: inline-block;
+  border-radius: 100px;
+  transition: all 0.2s;
+  position: absolute;
+}
+.request__text .btn .btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.25);
+}
+.request__text .btn .btn:active {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+.request__text .btn .btn-orange {
+  background-color: #f08700;
+  color: rgb(255, 255, 255);
+}
+.request__text .btn .btn::after {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  border-radius: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all 0.4s;
+}
+.request__text .btn .btn-orange::after {
+  background-color: #f08700;
+}
+.request__text .btn .btn:hover::after {
+  transform: scaleX(1.4) scaleY(1.6);
+  opacity: 0;
+}
+.request #popup {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+}
+.request .hide {
+  opacity: 0;
+  visibility: hidden;
+  display: none;
+}
+.request #popup:target .concult__content {
+  transform: scale(1);
+}
+.request .red {
+  color: red;
+}
+.request .consult {
+  background-color: rgba(0, 0, 0, 0.7);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
+.request .consult .consult__dialog {
+  max-width: 500px;
+  margin: 40px auto;
+}
+.request .consult .consult__content {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  max-width: 100%;
+  min-height: 600px;
+  background-image: url("../../images/imagesMain/imgRequest/2_2.jpeg");
+  color: black;
+  border-radius: 20px;
+  transition: all 0.5s ease;
+  z-index: 10;
+}
+.request .consult .consult__content-thanks {
+  display: flex;
+  justify-content: center;
+  color: #425b69;
+  font-size: 40px;
+  font-weight: 800;
+  text-transform: uppercase;
+  padding: 20px;
+  margin-top: 40px;
+  letter-spacing: 2px;
+}
+.request .consult .consult__content .consult-thanks {
+  text-align: center;
+}
+.request .consult__left {
+  padding: 20px;
+  overflow: hidden;
+}
+.request .consult__left .consult-thanks {
+  color: #425b69;
+  font-size: 20px;
+  font-weight: 800;
+  text-transform: uppercase;
+  padding: 20px;
+  margin-bottom: 15px;
+  letter-spacing: 2px;
+}
+.request .consult__left .consult__text {
+  padding: 20px;
+}
+.request .consult__left .consult__text h2 {
+  color: #425b69;
+  font-size: 20px;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  letter-spacing: 2px;
+}
+.request .consult__left .consult__text p {
+  font-size: 15px;
+  line-height: 20px;
+  margin-bottom: 25px;
+}
+.request .consult__left .consult__form {
+  margin-bottom: 25px;
+}
+.request .consult__left .consult__form .form__reg:focus::-moz-placeholder {
+  opacity: 0;
+}
+.request .consult__left .consult__form .form__reg:focus::placeholder {
+  opacity: 0;
+}
+.request .consult__left .consult__form .form__reg {
+  background: transparent;
+  border: none;
+}
+.request .consult__left .consult__form .form__reg::-moz-placeholder {
+  color: #425b69;
+}
+.request .consult__left .consult__form .form__reg::placeholder {
+  color: #425b69;
+}
+.request .consult__left .consult__form .consult__name:after,
+.request .consult__left .consult__form .consult__number:after {
+  content: "";
+  margin: 3% 0;
+  display: block;
+  height: 1px;
+  max-width: 300px;
+  background: rgba(0, 0, 50, 0.4);
+}
+.request .consult input[type=text]:focus,
+.request .consult input[type=phone]:focus {
+  outline: none;
+}
+.request .consult .btn {
+  max-width: 200px;
+  font-size: 15px;
+}
+.request .consult .btn .btn:link,
+.request .consult .btn .btn:visited {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 10px 15px;
+  display: inline-block;
+  border-radius: 100px;
+  transition: all 0.2s;
+  position: absolute;
+}
+.request .consult .btn .btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.request .consult .btn .btn:active {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+.request .consult .btn .btn-orange {
+  background-color: #f08700;
+  color: rgb(255, 255, 255);
+}
+.request .consult .btn .btn::after {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  border-radius: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all 0.4s;
+}
+.request .consult .btn .btn-orange::after {
+  background-color: #f08700;
+}
+.request .consult .btn .btn:hover::after {
+  transform: scaleX(1.4) scaleY(1.6);
+  opacity: 0;
+}
+.request .consult .close-popup {
+  position: absolute;
+  right: -10px;
+  top: -10px;
+  width: 40px;
+  height: 40px;
+  background-color: #f08700;
+  color: #e2e8f0;
+  text-decoration: none;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+}
+.request .consult .close-popup:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.close-popup {
+  position: absolute;
+  right: -10px;
+  top: -10px;
+  width: 40px;
+  height: 40px;
+  background-color: #f08700;
+  color: #e2e8f0;
+  text-decoration: none;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+}
+
+.close-popup:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}/*# sourceMappingURL=styleRequest.css.map */
