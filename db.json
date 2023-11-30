@@ -1,180 +1,91 @@
 {
-  "teacher": [
-    {
-      "img": "./assets/images/imagesMain/imagesTeam/Nick.jpg",
-      "name": "Nick",
-      "position": "English and French teacher from Canada",
-      "text": "I can explain complex nuances of the language in a simple way."
-    },
-    {
-      "img": "./assets/images/imagesMain/imagesTeam/Stu2.jpg",
-      "name": "Stuart",
-      "position": "English teacher from Australia",
-      "text": "I know how to learn English without boring books and homework."
-    },
-    {
-      "img": "./assets/images/imagesMain/imagesTeam/Maryan.jpg",
-      "name": "Maryanne",
-      "position": "English teacher from South Africa",
-      "text": "I will teach you not only to speak English, but also to think!"
-    }
-  ],
-  "courses": [
-    {
-      "img": "./assets/images/imagesMain/img-173-1024x683.jpg",
-      "titleName": "Cambridge English",
-      "titleAge": "7 - 17 лет",
-      "text": "Курс по подготовке к сдаче языковых экзаменов Cambridg English, состоящий из четырех блоков: устной речи, чтения,письма и аудирования. Кембриджский сертификат необходим для поступления в топовые международные вузы.",
-      "time": "Сентябрь-май",
-      "map": "География обучения: очные занятия – Москва, онлайн – по всему миру"
-    },
-    {
-      "img": "./assets/images/imagesMain/course2.jpg",
-      "titleName": "Индивидуальные занятия",
-      "titleAge": "",
-      "text": "Индивидуальные занятия по подготовке к языковым экзаменам, школьным экзаменам, а также по предметам школьной программы на русском и английском языках.",
-      "time": "В любое время года",
-      "map": "География обучения: очные занятия – Москва, онлайн – по всему миру"
-    },
-    {
-      "img": "./assets/images/imagesMain/l2122015105847773.jpg",
-      "titleName": "A-Levels",
-      "titleAge": "15 - 17 лет",
-      "text": "Углубленный курс для сдачи углубленного экзамена, необходимого для поступления в престижные мировые вузы. A-Levels - это отличный способ влиться в британскую академическую среду, привыкнуть к учебе на английском языке.",
-      "time": "Сентябрь-май",
-      "map": "Время занятий составляется индивидуально"
-    },
-    {
-      "img": "./assets/images/imagesMain/cambridge-english_f1a5072dbbcb8dc37f76c040d24b5719.jpg",
-      "titleName": "Клубные занятия",
-      "titleAge": "6 - 17 лет",
-      "text": "Клубные занятия по интересам для детей школьного возраста: книжный клуб, гастрономический класс, робототехника и дебаты. Встречи проходят на английском языке.Клубные занятия по интересам для детей школьного возраста: книжный клуб.",
-      "time": "Сентябрь-май",
-      "map": "География обучения: очные занятия – Москва, онлайн – по всему миру"
-    }
-  ],
-  "advantages": [
-    {
-      "img": "./assets/images/imagesMain/imagesAdvantage/boy.jpg",
-      "title": "Носители языка",
-      "text": "Носители языка ведут занятия на всех уровнях, и только Вам выбирать, к кому идти на урок."
-    },
-    {
-      "img": "./assets/images/imagesMain/imagesAdvantage/big-ben.jpg",
-      "title": "Экскурсии по Лондону",
-      "text": "Вы познакомитесь с легендарными местами, попробуете местную еду и попрактикуете свой язык."
-    },
-    {
-      "img": "./assets/images/imagesMain/imagesAdvantage/twin.jpg",
-      "title": "Двухфакторная подготовка",
-      "text": "Теорию, грамматику языка объясняется русским преподавателем, а практика - с носителем языка."
-    },
-    {
-      "img": "./assets/images/imagesMain/imagesAdvantage/school.jpg",
-      "title": "Школа пансион в Англии",
-      "text": "Погружение в аутентичную культуру и общение не только с местными жителями, но и с другими иностранными студентами."
-    },
-    {
-      "img": "./assets/images/imagesMain/imagesAdvantage/learning.jpg",
-      "title": "Знания через практику",
-      "text": "На занятиях большое внимание уделяется практике, где дети понимают теорию на практике и применяют знания в реальной жизни."
-    },
-    {
-      "img": "./assets/images/imagesMain/imagesAdvantage/clock.jpg",
-      "title": "Гибкий график",
-      "text": "Курс можно легко подстроить под ваш режим дня. Вы будете сами формировать план занятий и выбирать часы посещения."
-    }
-  ],
-  "requests": [
-    {
-      "name": "fghh",
-      "phone": "34565432345",
-      "id": 1
-    },
-    {
-      "name": "dfg",
-      "phone": "34543234565",
-      "id": 2
-    },
-    {
-      "name": "ghjj",
-      "phone": "33333334567",
-      "id": 3
-    },
-    {
-      "name": "fgg",
-      "phone": "34567898765",
-      "id": 4
-    },
-    {
-      "name": "fggf",
-      "phone": "23456789098",
-      "id": 5
-    },
-    {
-      "name": "Fyyf",
-      "phone": "12345678909",
-      "id": 6
-    },
-    {
-      "name": "anna",
-      "phone": "12345678765",
-      "id": 7
-    },
-    {
-      "name": "ann",
-      "phone": "22222222222",
-      "id": 8
-    },
-    {
-      "name": "cc",
-      "phone": "3456544344",
-      "id": 9
-    },
-    {
-      "name": "bggfd",
-      "phone": "12345676543",
-      "id": 10
-    },
-    {
-      "name": "ss",
-      "phone": "33333333333",
-      "id": 11
-    },
-    {
-      "name": "gg",
-      "phone": "55555555555",
-      "id": 12
-    },
-    {
-      "name": "ss",
-      "phone": "22233344456",
-      "id": 13
-    },
-    {
-      "name": "hgg",
-      "phone": "22233344456",
-      "id": 14
-    },
-    {
-      "name": "jhgh",
-      "phone": "55555555555",
-      "id": 15
-    },
-    {
-      "name": "fff",
-      "phone": "34555555555",
-      "id": 16
-    },
-    {
-      "name": "f",
-      "phone": "55555555555",
-      "id": 17
-    },
-    {
-      "name": "ff",
-      "phone": "55555555555",
-      "id": 18
-    }
-  ]
-}
+    "teacher": [
+      {
+        "img": "./assets/images/imagesMain/imagesTeam/Nick.jpg",
+        "name": "Nick",
+        "position": "English and French teacher from Canada",
+        "text": "I can explain complex nuances of the language in a simple way."
+      },
+      {
+        "img": "./assets/images/imagesMain/imagesTeam/Stu2.jpg",
+        "name": "Stuart",
+        "position": "English teacher from Australia",
+        "text": "I know how to learn English without boring books and homework."
+      },
+      {
+        "img": "./assets/images/imagesMain/imagesTeam/Maryan.jpg",
+        "name": "Maryanne",
+        "position": "English teacher from South Africa",
+        "text": "I will teach you not only to speak English, but also to think!"
+      }
+    ],
+    "courses": [
+      {
+        "img": "./assets/images/imagesMain/img-173-1024x683.jpg",
+        "titleName": "Cambridge English",
+        "titleAge": "7 - 17 лет",
+        "text": "Курс по подготовке к сдаче языковых экзаменов Cambridg English, состоящий из четырех блоков: устной речи, чтения,письма и аудирования. Кембриджский сертификат необходим для поступления в топовые международные вузы.",
+        "time": "Сентябрь-май",
+        "map": "География обучения: очные занятия – Москва, онлайн – по всему миру"
+      },
+      {
+        "img": "./assets/images/imagesMain/course2.jpg",
+        "titleName": "Индивидуальные занятия",
+        "titleAge": "",
+        "text": "Индивидуальные занятия по подготовке к языковым экзаменам, школьным экзаменам, а также по предметам школьной программы на русском и английском языках.",
+        "time": "В любое время года",
+        "map": "География обучения: очные занятия – Москва, онлайн – по всему миру"
+      },
+      {
+        "img": "./assets/images/imagesMain/l2122015105847773.jpg",
+        "titleName": "A-Levels",
+        "titleAge": "15 - 17 лет",
+        "text": "Углубленный курс для сдачи углубленного экзамена, необходимого для поступления в престижные мировые вузы. A-Levels - это отличный способ влиться в британскую академическую среду, привыкнуть к учебе на английском языке.",
+        "time": "Сентябрь-май",
+        "map": "Время занятий составляется индивидуально"
+      },
+      {
+        "img": "./assets/images/imagesMain/cambridge-english_f1a5072dbbcb8dc37f76c040d24b5719.jpg",
+        "titleName": "Клубные занятия",
+        "titleAge": "6 - 17 лет",
+        "text": "Клубные занятия по интересам для детей школьного возраста: книжный клуб, гастрономический класс, робототехника и дебаты. Встречи проходят на английском языке.Клубные занятия по интересам для детей школьного возраста: книжный клуб.",
+        "time": "Сентябрь-май",
+        "map": "География обучения: очные занятия – Москва, онлайн – по всему миру"
+      }
+    ],
+    "advantages": [
+      {
+        "img": "./assets/images/imagesMain/imagesAdvantage/boy.png",
+        "title": "Носители языка",
+        "text": "Носители языка ведут занятия на всех уровнях, и только Вам выбирать, к кому идти на урок."
+      },
+      {
+        "img": "./assets/images/imagesMain/imagesAdvantage/big-ben.png",
+        "title": "Экскурсии по Лондону",
+        "text": "Вы познакомитесь с легендарными местами, попробуете местную еду и попрактикуете свой язык."
+      },
+      {
+        "img": "./assets/images/imagesMain/imagesAdvantage/twin.png",
+        "title": "Двухфакторная подготовка",
+        "text": "Теорию, грамматику языка объясняется русским преподавателем, а практика - с носителем языка."
+      },
+      {
+        "img": "./assets/images/imagesMain/imagesAdvantage/school.png",
+        "title": "Школа пансион в Англии",
+        "text": "Погружение в аутентичную культуру и общение не только с местными жителями, но и с другими иностранными студентами."
+      },
+      {
+        "img": "./assets/images/imagesMain/imagesAdvantage/learning.png",
+        "title": "Знания через практику",
+        "text": "На занятиях большое внимание уделяется практике, где дети понимают теорию на практике и применяют знания в реальной жизни."
+      },
+      {
+        "img": "./assets/images/imagesMain/imagesAdvantage/clock.png",
+        "title": "Гибкий график",
+        "text": "Курс можно легко подстроить под ваш режим дня. Вы будете сами формировать план занятий и выбирать часы посещения."
+      }
+    ],
+    "requests": [
+     
+    ]
+  }
